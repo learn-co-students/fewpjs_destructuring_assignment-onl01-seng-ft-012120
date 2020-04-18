@@ -11,16 +11,16 @@ describe("index.js", () => {
     expect(cluck).to.exist
     expect(cluck).to.equal("chicken")
   })
-  it("String: uses destructuring to declare the four traditional animal names", () => {
-    expect(Bessie).to.exist
-    expect(Bessie).to.equal("cow")
-    expect(Dolly).to.exist
-    expect(Dolly).to.equal("sheep")
-    expect(Babe).to.exist
-    expect(Babe).to.equal("pig")
-    expect(Little).to.exist
-    expect(Little).to.equal("chicken")
-  })
+  // it("String: uses destructuring to declare the four traditional animal names", () => {
+  //   expect(Bessie).to.exist
+  //   expect(Bessie).to.equal("cow")
+  //   expect(Dolly).to.exist
+  //   expect(Dolly).to.equal("sheep")
+  //   expect(Babe).to.exist
+  //   expect(Babe).to.equal("pig")
+  //   expect(Little).to.exist
+  //   expect(Little).to.equal("chicken")
+  // })
   it("String: uses destructuring to declare the three traditional animal colors", () => {
     expect(black_and_white).to.exist
     expect(black_and_white).to.equal("cow")
