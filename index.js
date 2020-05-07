@@ -35,9 +35,6 @@ const k_muppet = {
  const {song_2, song_4 } = k_muppet.k_album.the_muppet_movie
  const {k_job, k_partner} = k_muppet
 // Strings
-// const dogsName = 'Sir Woody BarksALot'
-// const [title, ,lastName] = 'Sir Woody BarksALot'.split(' ')
-// console.log(title, lastName) // Sir BarksALot
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
